@@ -1212,7 +1212,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		position: relative;
-		min-height: 70vh;
+		min-height: 65vh;
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
