@@ -212,7 +212,7 @@ input, select, textarea {
 	}
 
 	.balkzarColor{
-		color:#FF1A5B;
+		color:#FF1700;
 	}
 
 	h2 {
@@ -1280,18 +1280,18 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			/* margin-top: 2rem; */
 		}
 
 			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
+				top: calc(-2rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				height: calc(2rem + 1px);
+				/* background: #ffffff; */
 			}
 
 		#header > :first-child {
@@ -1355,13 +1355,12 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
-			border-radius: 4px;
+	
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+	
 			}
 
 				#header nav ul li:first-child {
@@ -1370,10 +1369,11 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					/* min-width: 7.5rem; */
+					width: 2.7rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					/* padding: 0 1.25rem 0 1.45rem; */
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1396,7 +1396,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			/* background: #ffffff; */
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1493,7 +1493,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						/* border-top: solid 1px #FF1700; */
 					}
 
 						#header nav ul li:first-child {
@@ -1505,6 +1505,9 @@ input, select, textarea {
 							line-height: 3rem;
 							min-width: 0;
 							width: 100%;
+						}
+						#header > nav > ul > li > a > img.social-media{
+							width:6%
 						}
 
 				#header nav.use-middle:after {
@@ -1635,6 +1638,9 @@ input, select, textarea {
 
 		}
 
+	.social-media{
+		width: 70%;
+	}
 /* Footer */
 
 	#footer {
